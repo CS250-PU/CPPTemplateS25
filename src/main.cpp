@@ -1,20 +1,25 @@
 //******************************************************************************
 // File name:   main.cpp
-// Author:      CS Faculty
-// Date:        xx/xx/xxxx (Replace xx/xx/xxxx with month/day/year)
-// Class:       CS150-xx (Replace xx with your section number)
-// Assignment:  Hello World
-// Purpose:     Display the message Hello World to the screen
-// Hours:       0.25
+// Author:      
+// Date:        
+// Class:       
+// Assignment:  
+// Purpose:     
+// Hours:       
 //******************************************************************************
 
 #include <iostream>
+#include "../include/SampleClass.h"
 
 using namespace std;
 
-int main () {
 
-  cout << "Hello World" << endl;
-  
+int main () {
+  SampleClass cSampleClass;
+
+  cout << "Factorial of 1: " << cSampleClass.factorial (0) << endl;
+
+  cout << "Process Completed" << endl;
+
   return EXIT_SUCCESS;
 }

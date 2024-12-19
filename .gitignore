@@ -33,3 +33,7 @@
 
 # PDFs
 *.pdf
+
+# Google test ignore
+googletest/
+build/
