@@ -39,4 +39,4 @@
 
     * You will be asked to select a Kit. Select the Kit that starts with Clang. There should only be one. Further, this only needs to be done once.
 
-    * A GoogleTest should run that tests a function called factorial that is a memmber of a class called SampleClass. you should see the function factorial tested and passed in green text.
+    * A GoogleTest should run that tests a function called factorial that is a member of a class called SampleClass. You should see the function factorial tested and passed in green text.
