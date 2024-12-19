@@ -1,4 +1,4 @@
-## CS150/250 C++ Template
+## 250 C++ Template
 
 ## Commands
 
@@ -28,3 +28,15 @@
     * Type <b>task</b> in the task bar followed by a space
     * Select printToPDF
     * The pdf will be created in the pdfs directory
+
+4. Create and run GoogleTest
+
+    * From the terminal, type in the following command
+      ```
+      git clone https://github.com/google/googletest.git
+      ```
+    * In the lower left of the Explorer window you will see Codespaces: and the name of your running codespace which is two words. At the far right you will see a triangle pointing right. Click that icon.
+
+    * You will be asked to select a Kit. Select the Kit that starts with Clang. There should only be one. Further, this only needs to be done once.
+
+    * A GoogleTest should run that tests a function called factorial that is a memmber of a class called SampleClass. you should see the function factorial tested and passed in green text.
