@@ -35,8 +35,9 @@
       ```
       git clone https://github.com/google/googletest.git
       ```
-    * In the lower left of the Explorer window you will see Codespaces: and the name of your running codespace which is two words. At the far right you will see a triangle pointing right. Click that icon.
 
-    * You will be asked to select a Kit. Select the Kit that starts with Clang. There should only be one. Further, this only needs to be done once.
+    * You will be asked to select a Kit. Select the Kit that starts with **Clang**. There should only be one. Further, this only needs to be done once.
+
+    * In the lower left of the Explorer window you will see Codespaces: and the name of your running codespace which is two words. At the far right you will see a triangle pointing right. Click that icon.
 
     * A GoogleTest should run that tests a function called factorial that is a member of a class called SampleClass. You should see the function factorial tested and passed in green text.
