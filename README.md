@@ -33,7 +33,7 @@
 
     * You will be asked to select a Kit. Select the Kit that starts with **Clang**. There should only be one. Further, this only needs to be done once. Once you select the Kit, you will see an attempt to build the unit tests which will fail because the GoogleTest test suite is not installed yet. Proceed to the next bullet point.
 
-    * From the **TERMINAL", type in the following command
+    * From the **TERMINAL**, type in the following command
       ```
       git clone https://github.com/google/googletest.git
       ```
