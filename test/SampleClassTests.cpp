@@ -30,6 +30,4 @@ TEST (SampleClassTest, factorial) {
   EXPECT_EQ (2, cSampleClass.factorial (2));
   EXPECT_EQ (6, cSampleClass.factorial (3));
   EXPECT_EQ (24, cSampleClass.factorial (4));
-  EXPECT_EQ (-1, cSampleClass.factorial (-1));
-  EXPECT_EQ (-1, cSampleClass.factorial (-2));
 }

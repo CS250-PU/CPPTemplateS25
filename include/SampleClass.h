@@ -6,5 +6,5 @@ using namespace std;
 
 class SampleClass {
 public:
-  int factorial (int anInt);
+  int factorial (unsigned int uInt);
 };
