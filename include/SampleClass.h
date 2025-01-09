@@ -2,9 +2,7 @@
 
 #include <iostream>
 
-using namespace std;
-
 class SampleClass {
 public:
-  int factorial (unsigned int uInt);
+  unsigned int factorial (unsigned int uInt);
 };

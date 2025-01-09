@@ -1,8 +1,6 @@
 #include <iostream>
 #include "../include/SampleClass.h"
 
-using namespace std;
-
 /*******************************************************************************
  Function:    factorial
 
@@ -15,8 +13,8 @@ using namespace std;
 
  Returned:    The factorial of the number
 *******************************************************************************/
-int SampleClass::factorial (unsigned int uInt) {
-  int result = 1;
+unsigned int SampleClass::factorial (unsigned int uInt) {
+  unsigned int result = 1;
 
   for (int i = uInt; i >= 2; i--) {
     result *= i;
