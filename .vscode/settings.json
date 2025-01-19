@@ -16,7 +16,17 @@
   "C_Cpp.vcFormat.space.aroundTernaryOperator": "insert",
   "C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
   "C_Cpp.vcFormat.space.afterComma": true,
+  "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.compilerArgs": [
+    ],
   "files.associations": {
     "iostream": "cpp"
+  },
+  "cmake.debugConfig": { // ADD THIS FOR LLDB SUPPORT IN CMAKE
+    "type": "lldb",
+    "terminal": "external",
+    "name": "C/C++ Launch (LLDB)",
+    "miDebuggerPath": "/usr/bin/lldb"
   },
 }
