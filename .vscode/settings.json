@@ -18,6 +18,9 @@
   "C_Cpp.vcFormat.space.afterComma": true,
   "C_Cpp.default.compilerPath": "/usr/bin/clang++",
   "C_Cpp.default.cppStandard": "c++17",
+  "cmake.environment": {
+    "CXX": "/usr/bin/clang++ -fstandalone-debug -g"
+  },
   "C_Cpp.default.compilerArgs": [
     ],
   "files.associations": {
