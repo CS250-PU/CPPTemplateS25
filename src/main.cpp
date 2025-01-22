@@ -11,15 +11,12 @@
 #include <iostream>
 #include "../include/SampleClass.h"
 
-using namespace std;
-
-
 int main () {
   SampleClass cSampleClass;
 
-  cout << "Factorial of 1: " << cSampleClass.factorial (0) << endl;
+  std::cout << "Factorial of 1: " << cSampleClass.factorial (0) << std::endl;
 
-  cout << "Process Completed" << endl;
+  std::cout << "Process Completed" << std::endl;
 
   return EXIT_SUCCESS;
 }

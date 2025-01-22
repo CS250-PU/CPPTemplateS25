@@ -1,4 +1,4 @@
-CPP_COMPILER = clang++
+CPP_COMPILER = clang++-16
 CFLAGS = -g -Wall -fstandalone-debug
 CPP_VERSION=c++17
 ENSCRIPT_FLAGS=-C -T 2 -p - -M Letter -Ecpp --color -fCourier8
