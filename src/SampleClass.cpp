@@ -1,3 +1,12 @@
+//******************************************************************************
+// File name:   SampleClass.cpp
+// Author:      
+// Date:        
+// Class:       
+// Assignment:  
+// Purpose:     
+// Hours:       
+//******************************************************************************
 #include <iostream>
 #include "../include/SampleClass.h"
 
@@ -12,10 +21,10 @@ Parameter:    uInt - the number to calculate the factorial of
 
 Returned      The factorial of the parameter
 *******************************************************************************/
-unsigned int SampleClass::factorial (unsigned int uInt) {
-  unsigned int result = 1;
+size_t SampleClass::factorial (size_t uInt) {
+  size_t result = 1;
 
-  for (int i = uInt; i >= 2; i--) {
+  for (size_t i = uInt; i >= 2; i--) {
     result *= i;
   }
 
