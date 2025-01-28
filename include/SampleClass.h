@@ -13,5 +13,5 @@
 
 class SampleClass {
 public:
-  size_t factorial (size_t uInt);
+  unsigned int factorial (unsigned int uInt);
 };

@@ -19,12 +19,12 @@ Description:  The factorial of a number is defined using the folloiwng formula
               
 Parameter:    uInt - the number to calculate the factorial of
 
-Returned      The factorial of the parameter
+Returned      The factorial of the passed in value
 *******************************************************************************/
-size_t SampleClass::factorial (size_t uInt) {
-  size_t result = 1;
+unsigned int SampleClass::factorial (unsigned int uInt) {
+  unsigned int result = 1;
 
-  for (size_t i = uInt; i >= 2; i--) {
+  for (unsigned int i = uInt; i >= 2; i--) {
     result *= i;
   }
 
