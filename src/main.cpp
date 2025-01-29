@@ -1,10 +1,10 @@
 //******************************************************************************
 // File name:   main.cpp
-// Author:      
+// Author:      CS, Pacific University
 // Date:        
 // Class:       
 // Assignment:  
-// Purpose:     
+// Purpose:     Simple driver to execute SampleClass class
 // Hours:       
 //******************************************************************************
 

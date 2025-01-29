@@ -1,10 +1,10 @@
 //******************************************************************************
 // File name:   SampleClass.h
-// Author:      
+// Author:      CS, Pacific University
 // Date:        
 // Class:       
 // Assignment:  
-// Purpose:     
+// Purpose:     SampleClass interface
 // Hours:       
 //******************************************************************************
 #pragma once

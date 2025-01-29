@@ -1,10 +1,10 @@
 //******************************************************************************
 // File name:   SampleClass.cpp
-// Author:      
+// Author:      CS, Pacific University
 // Date:        
 // Class:       
 // Assignment:  
-// Purpose:     
+// Purpose:     SampleClass implementation
 // Hours:       
 //******************************************************************************
 #include <iostream>
