@@ -14,14 +14,6 @@
 // interface to unit test
 #include "../include/SampleClass.h"
 
-// do not worry about the following function for mow. If you have multiple
-// files that are being unit tested. the following function can only be 
-// included in a **SINGLE** unit test file
-int main (int argc, char** argv) {
-  ::testing::InitGoogleTest (&argc, argv);
-  return RUN_ALL_TESTS ();
-}
-
 // Each unit test for a given function is added below
 TEST (SampleClassTest, factorial) {
   SampleClass cSampleClass;
@@ -31,4 +23,15 @@ TEST (SampleClassTest, factorial) {
   EXPECT_EQ (2, cSampleClass.factorial (2));
   EXPECT_EQ (6, cSampleClass.factorial (3));
   EXPECT_EQ (24, cSampleClass.factorial (4));
+}
+
+//******************************************************************************
+// IMPORTANT
+//******************************************************************************
+// do not worry about the following function for mow. If you have multiple
+// files that are being unit tested. the following function can only be 
+// included in a **SINGLE** unit test file which is THIS file!!!!!!!!!!!!!!!!!!!
+int main (int argc, char** argv) {
+  ::testing::InitGoogleTest (&argc, argv);
+  return RUN_ALL_TESTS ();
 }
