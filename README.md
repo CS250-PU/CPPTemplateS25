@@ -9,10 +9,10 @@
     * Type the command <b>make</b>. If all goes well, you will see something similar to 
 
       ```
-        @ryan2135 ➜ /workspaces/AssignmentT (main) $ make
+        @ryan2135 ➜ /workspaces/CPPTemplateS25 (main) $ make
         mkdir -p bin
-        clang++ -g -Wall -std=c++17 -o bin/main.exe src/*.cpp -Iinclude
-        ryan2135 ➜ /workspaces/AssignmentT (main) $ 
+        clang++-16 -g -Wall -fstandalone-debug -std=c++2b  -o bin/main.exe src/*.cpp -Iinclude
+        @ryan2135 ➜ /workspaces/CPPTemplateS25 (main) $ 
       ```
     * Type bin/main.exe
 
