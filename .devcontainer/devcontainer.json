@@ -14,7 +14,8 @@
 				"vadimcn.vscode-lldb",
 				"ms-vscode.cpptools-extension-pack",
 				"mathematic.vscode-pdf",
-				"matepek.vscode-catch2-test-adapter"
+				"matepek.vscode-catch2-test-adapter",
+				"analytic-signal.preview-pdf"
 			]
 		}
 	}
