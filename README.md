@@ -33,12 +33,12 @@
 
     * You will be asked to select a Kit. Select the Kit that says **unspecified**. Further, this only needs to be done once. Once you select the Kit, you will see an attempt to build the unit tests which will fail because the GoogleTest test suite is not installed yet. Proceed to the next bullet point.
 
-    * From the **TERMINAL**, type in the following command
+    * From the **TERMINAL**, type in the following command (or copy and paste all 4 statements at once)
       ```
-        wget https://github.com/google/googletest/archive/refs/tags/v1.15.2.tar.gz
-        tar zxf v1.15.2.tar.gz
-        mv googletest-1.15.2/ googletest
-        rm v1.15.2.tar.gz 
+        wget https://github.com/google/googletest/archive/refs/tags/v1.15.2.tar.gz;
+        tar zxf v1.15.2.tar.gz;
+        mv googletest-1.15.2/ googletest;
+        rm v1.15.2.tar.gz;
       ```
 
     * In the lower left of the Explorer window you will see Codespaces: and the name of your running codespace which is two words. At the far right you will see a triangle pointing right. Click that icon which will run the unit tests in SampleClassTests.cpp which will unit test the factorial program in class SampleClass.
